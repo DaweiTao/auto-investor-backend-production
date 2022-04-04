@@ -127,5 +127,6 @@ dist
 .pnp.*
 
 # env file
-package.json
 package-lock.json
+nodemon.json
+.DS_Store
