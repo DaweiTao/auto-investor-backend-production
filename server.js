@@ -24,7 +24,8 @@ mongoose
 
 // server
 const app = express()
-const port = 3000
+// port must be 8080 for aws
+const port = 8080
 
 // middleware
 app.use(bodyParser.json());
